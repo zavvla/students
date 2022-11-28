@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+    line-height: 24px;
+    font-size: 18px;
+    color: var(--gray1);
+    font-family: Ubuntu, sans-serif;
+    background-color: #fff;
+}
+@import "colors";
+@import "link";
+@import "container";
+@import "footer";
+@import "header";
+@import "menu";

@@ -1,0 +1,31 @@
+.header {
+    background: linear-gradient(96.18deg, #006b9e -2.14%, #0d75be 48.69%, #095ba3 101.22%);
+    border-bottom: 1px solid var(--color1);
+}
+
+.header--dark {
+    background-color: #000;
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.header__content {
+    display: flex;
+    align-items: center;
+    column-gap: 24px;
+}
+
+.header__image {
+    display: block;
+    max-width: 100%;
+}
+
+.header__menu {
+    margin-left: 24px;
+    display: block;
+}
